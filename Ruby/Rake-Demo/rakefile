@@ -1,0 +1,40 @@
+#  rake sendmail
+
+desc "mail sender"
+
+task :sendmail do 
+    puts "get email list from datebase"
+    sleep 2
+    puts "sending email ..."
+    sleep 2
+    puts "done!"
+end
+
+task :open_the_door do
+    puts "open the door"
+end
+
+task :goto_toliet => :open_the_door do
+    puts "go"
+end
+
+task :default => :sendmail
+
+
+#  rake goto_toliet 
+#  結果 
+#  open the door
+#  go
+
+
+
+namespace :db do
+    desc '資料庫處理'
+    task :migrate do 
+        puts "migration"
+    end
+end
+
+task : migrate do 
+    puts "migrations"
+end
