@@ -11,6 +11,9 @@
 # 定義函數 有東西進去 也有東西出來
 # methond 有作用對象
 
+# funciont 通常沒有作用對象
+# methond 通常有作用對象
+
 kitty = Cat.new
 kitty.eat
 
@@ -51,6 +54,18 @@ def is_adult?(age)
     else
         return false
     end
+end
+
+def is_adult?(age)
+    if age > 18
+         true
+    else
+         false
+    end
+end
+
+def is_adult?(age)
+    age > 18
 end
 
 
