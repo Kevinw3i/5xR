@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        /* 用 absolute 定位置中 */
+        .banner{
+            width: 300px;
+            height: 400px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+
+            border:2px solid red;
+        }
+        .ps{
+            position : absolute;
+            width: 40px;
+            height: 40px;
+            background-color: yellow;
+            text-align: center;
+            line-height: 40px;
+            top:0;
+            right: 0;
+            color: red;
+        }
+        .ps2{
+            border-bottom: 5px solid transparent;
+            border-left: 20px solid yellow;
+            border-right: 20px solid yellow;
+            border-top: 5px solid yellow;
+            position:absolute;
+            z-index: 1;
+            right: 0;
+            top:35px;
+        }
+        .good{
+            position: absolute;
+            width: 70px;
+            height: 20px;
+            top:5px;
+            left:  -5px;
+            background-color: red;
+        }
+        .good2{
+            /* position: absolute; */
+            position: absolute;
+            width: 0;
+            height: 0;
+            top:25px;
+            left: -5px;
+            border-left: 5px solid transparent;
+            border-top: 5px solid #f00;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="https://picsum.photos/300/300" alt="">
+        <div class="ps">5折</div>
+        <div class="ps2"></div>
+        <div class="good">蝦皮精選</div>
+        <div class="good2"></div>
+        <h1>title</h1>
+        <p>123423152521kj25iji2j</p>
+    </div>     
+</body>
+</html>
