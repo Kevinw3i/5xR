@@ -1,5 +1,5 @@
 {
-    // 使用 IntelliSense 以得知可用的屬性。
+    // 使用 v 以得知可用的屬性。
     // 暫留以檢視現有屬性的描述。
     // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
@@ -8,8 +8,10 @@
             "name": "Debug Local File",
             "type": "Ruby",
             "request": "launch",
-            "cwd": "/Users/wei/Desktop/5xR/Ruby/",
-             "program": "/Users/wei/Desktop/5xR/Ruby/ruby2-14B.rb"
+            "cwd": "/Users/wei/Desktop/5xR/Ruby/RubyClass/",
+            "program": "/Users/wei/Desktop/5xR/Ruby/RubyClass/0709.rb"
+            // "cwd": "/Users/wei/Desktop/5xR/Ruby/",
+            // "program": "/Users/wei/Desktop/5xR/Ruby/ruby2-11.rb"
         }
     ]
 }

@@ -14,12 +14,12 @@
 # funciont 通常沒有作用對象
 # methond 通常有作用對象
 
-kitty = Cat.new
-kitty.eat
+# kitty = Cat.new
+# kitty.eat
 
-funciont x(n){
-    return 3 * n + 2
-}
+# funciont x(n){
+#     return 3 * n + 2
+# }
 
 
 # =======================================================
