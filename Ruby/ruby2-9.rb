@@ -35,5 +35,5 @@ p "profile[name] = #{profile["name"]}"
 p profile["name"]
 
 # kk
-p "profile[name] = #{profile[:name]}"
+p "profile[:name] = #{profile[:name]}"
 p profile[":name"]
