@@ -9,7 +9,7 @@
             "type": "Ruby",
             "request": "launch",
             "cwd": "/Users/wei/Desktop/5xR/Ruby/RubyClass/",
-            "program": "/Users/wei/Desktop/5xR/Ruby/RubyClass/0709.rb"
+            "program": "/Users/wei/Desktop/5xR/Ruby/RubyClass/0710.rb"
             // "cwd": "/Users/wei/Desktop/5xR/Ruby/",
             // "program": "/Users/wei/Desktop/5xR/Ruby/ruby2-11.rb"
         }
