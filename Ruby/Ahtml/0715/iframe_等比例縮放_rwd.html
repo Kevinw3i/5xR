@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            /* width: 1000px; */
+            background-color: #ccc;
+            display: flex;
+        }
+        .box{
+            /* width: 50%; */
+            height: 0;
+
+            width: 100%;
+            /*  Wight:560
+                hight:315
+
+                315 / 560 * 100 = 56.25
+            */
+            padding-bottom: 56.25%;
+
+            background-color: red;
+            position: relative;
+        }
+        .box iframe{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        /*  */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_nCBQ6AIzDU" frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+        <div class="box2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla adipisci dolor nihil quas,</p>
+        </div>
+    </div>
+</body>
+</html>
