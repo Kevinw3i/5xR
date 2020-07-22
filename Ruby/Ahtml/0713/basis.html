@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            width: 900px;
+            height: 700px;
+            background-color: #eee;
+
+            display: flex;
+            /* flex-direction: column; */
+        }
+        .item{ 
+            width: 100px;
+            height: 100px;
+
+            background-color: red;
+            margin: 5px;
+            font-size: 50px;
+
+            /* flex-basis */
+            /* flex-basis: 200px; */
+            flex-basis: 0px;
+            flex-grow: 1;
+
+            /* flex: flex-grow, flex-shrink, flex-basis */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+</body>
+</html>
